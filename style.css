@@ -1,0 +1,100 @@
+p, h3, #myList{
+	color:gray;
+}
+
+p{
+	font-family:Verdana, "Courier New"; /*шрифт(список в доп материалах)*/
+	font-size:120%;  /* по умолчанию стоит 100 */
+	text-indent:25px; /*красная строка*/
+	line-height:30px; /*межстрочный интервал*/
+	word-spacing: 14px;/*интервал между словами*/
+	letter-spacing:3px; /*интервал между буквами*/
+}
+#header{
+	color:red;
+	text-align:center; /*выравнивание текста*/
+	text-transform:uppercase;/*заголовок заглавными буквами(смена регистра)*/
+	border-bottom-width:2px; /*толщина рамки*/
+	border-bottom-style:dashed;/*стиль рамки*/
+	border-bottom-color:#1F3147; /*цвет рамки*/
+	/*топ означает только верхняя рамка*/
+	/*bottom нижняя рамка*/
+	padding:50px;/*внутренний отступ*/
+	margin:15px auto 20px auto;/*отступ поля*/ /*2 и 4 значение auto выравнивает блок посередине*/
+	width:550px;/*ширина текста(влияет на ширину рамки*/
+	height:100px;/*высота текста*/
+}
+
+.new{
+	color:green;
+}
+
+ul li, dl dt{ /*наследуемые селекторы*/
+	color:red;
+}
+dl dd{
+	color:green;
+}
+
+a:link{
+	color:#5E2951; /*измениние цвета ссылок в 4 состояниях*/
+}
+a:visited{
+	color:#0FD611;
+}
+a:hover{
+	color:#4EB7D7;
+}
+a:active{
+	color:#D0B9D7;
+}
+.new2{
+	font-style:italic; /*начертание шрифта(курсив)*/
+}
+.new3{
+	font-weight:bold; /*выделение(полужирный шрифт)*/
+	text-decoration:underline;/*подчеркнуть снизу*/
+}
+a{
+	text-decoration:none;/*убрать подчеркивание*/
+	border-bottom:11px dashed red; /*нижняя рамка для ссылок*/
+}
+.new4{
+	text-align:justify;/*выравнивание абзаца*/
+}
+ul{
+	list-style-image:url(images/arrow.png); /*стиль списка в виде картинок*/
+	list-style-position:inside;/*местоположение картинки, что выше(для списка). в нашем случае перемещено в рамку*/
+}
+ul li{
+	border:5px solid yellow;
+}
+body{
+	width:900px; /*ширина всего сайта*/
+	margin:0 auto; /*выравнивание сайта посередине*/
+
+}
+table,td, th{
+	border:1px solid #5E2951;
+}
+table{
+	width:800px;
+	border-collapse:collapse;/*деление ячеек обычным способом(убери и посмотри что было ДО)*/
+	margin:0 auto;
+
+}
+td,th{
+	height:50px;
+
+	text-align:center;
+}
+th{
+	background-color:#D0FFBE;
+}
+tr.blue td{
+	background-color:#A5D6FF;
+}
+#img{
+	float:right;
+	margin:20px 0 20px 50px;/*отступы от картинки*/
+}
